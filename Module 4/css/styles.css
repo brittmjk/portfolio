@@ -1,0 +1,113 @@
+
+body{
+    background-color: light tan;
+    color : #034C52;
+    font-family: 'Georgia', serif;
+    font-weight: lighter;
+    }
+    .header {
+        padding: 50px;
+        text-align: center;
+        background-color: #015c63;
+        color: white;
+        font-size: 30px;
+        font-family: "Arsenal SC", sans-serif;
+      }
+   
+    .resume{
+      color:#56382d; ;
+      text-align: left;
+      padding: 10px;
+    }
+    
+    h3{
+      font-size: 35px;
+      color: light brown;
+      text-align:center;
+    }
+    h4{
+        text-align: center;
+        font-size:25px;
+    }
+    ul{text-align: center;
+    color:#f48d79}
+    
+footer{
+  background: color #f48d79;;
+  color:#034C52;
+}
+box.roles{width: 200px;
+    border: 7px solid green;
+    padding: 50px;
+    margin: 20px;}
+img{
+    border: #015c63;
+    align-content: center;
+}    
+.grid-container {
+    display: grid;
+    grid-template-columns:none;
+    gap: 20px; 
+    border: 4px solid #f48d79;
+      border-radius: 5px; 
+      background-color: #f9f9f9; 
+  }
+  
+  .grid-item img {
+    float: left; 
+    margin-right: 10px; 
+    width: 150px; 
+    height: auto; 
+  }
+  
+  .grid-item p {
+    display: inline-block;
+    text-align: center;
+  }
+a {
+  color: white;                
+  text-decoration: none;        
+  font-weight: 500;             
+  transition: color 0.3s ease, border-bottom 0.3s ease;  
+  border-bottom: 2px solid transparent; 
+}
+
+.grid-container {
+  display:flex;
+  grid-template-columns: repeat;
+  gap: 20px; 
+  border: 4px solid #D2B48C;
+    border-radius: 5px; 
+    background-color: #f9f9f9; 
+}
+
+.arsenal-sc-regular {
+    font-family: "Arsenal SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+.grid-item p {
+  display: inline-block;
+  text-align: justify;
+}
+p{
+    font-family:Tahoma;
+    font-size: 15px;
+}
+.fa{
+    padding: 20px;
+    font-size: 40px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.button {
+    background-color:#017075;
+    border: none;
+    color: ffc0b4;
+    padding: 15px 32px;
+    align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
